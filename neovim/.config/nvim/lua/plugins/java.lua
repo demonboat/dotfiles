@@ -42,8 +42,18 @@ return {
                 profile = "MittProjektProfilNamn",
               },
             },
+            eclipse = { downloadSource = true },
+            maven = { downloadSources = true },
             signatureHelp = { enabled = true },
             contentProvider = { preferred = "fernflower" },
+            codeGeneration = {
+              hashCodeEquals = { useJava7Objects = true },
+              useBlocks = true,
+            },
+            referencesCodeLens = { enabled = true },
+            inlayHints = {
+              parameterNames = { enabled = true },
+            },
           },
         },
         init_options = {
