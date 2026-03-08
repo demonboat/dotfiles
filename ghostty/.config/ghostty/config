@@ -1,0 +1,7 @@
+font-family = JetBrains Mono
+font-size = 16
+ 
+# programming ligatures
+font-feature = +liga # transforms => != etc into single glyphs
+font-feature = +calt # contextual alternatives
+font-feature = +dlig # discretionary ligatures (disabled by default in 1.2.0)

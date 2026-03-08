@@ -1,7 +1,18 @@
 return {
-  "rebelot/kanagawa.nvim",
+  "EdenEast/nightfox.nvim",
   priority = 1000,
+  opts = {
+    colorscheme = "dayfox",
+  },
   config = function()
-    vim.cmd("colorscheme kanagawa-lotus")
+    require("nightfox").setup({
+      options = {
+        styles = {
+          comments = "italic",
+          keywords = "bold",
+          types = "italic,bold",
+        },
+      },
+    })
   end,
 }
