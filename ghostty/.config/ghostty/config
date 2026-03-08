@@ -5,3 +5,8 @@ font-size = 16
 font-feature = +liga # transforms => != etc into single glyphs
 font-feature = +calt # contextual alternatives
 font-feature = +dlig # discretionary ligatures (disabled by default in 1.2.0)
+
+background-opacity = 1.0
+background-blur = false
+background = f2f2f2
+theme = dayfox
